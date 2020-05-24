@@ -7,10 +7,14 @@ body {
 }
 
 div#title{
-    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100px;
+    height: 30%;
+    width: 90%;
     background: url(logo.png);
     background-repeat: no-repeat;
-    background-size: 80%;
+    background-size: 70%;
     background-position: center center;
 }
 
@@ -18,8 +22,8 @@ div#title{
     margin: 0px auto;
     margin-top: 50px;
     display: block;
-    width: 800px;
-    max-width: 80%;
+    width: 90%;
+    max-width: 1000px;
     background-color: white;
     padding: 10px;
     border-radius: 5px;
@@ -30,10 +34,9 @@ div#illustration {
     box-sizing: content-box;
     margin: 20px auto;
     padding: 5px;
-    min-height: 200px;
-    max-width: 80%;
-    box-shadow: 1px 2px 5px grey;
-    border-radius: 5px;
+    max-width: 800px;
+    width: 90%;
+    min-height: 300px;
     background: url(kezdet.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -47,7 +50,7 @@ div#text {
     border-radius: 5px;
     box-shadow: 1px 2px 5px grey;
     text-align: center;
-    font-size: 16px;
+    font-size: 24px;
     height: 100px;
     margin-bottom: 20px;
 }
@@ -64,7 +67,7 @@ div#option-buttons {
 }
 
 .btn {
-    font-size: 16px;
+    font-size: 24px;
     background-color: hsl(200, 100%, 50%);
     border: 1px solid hsl(200, 100%, 30%);
     border-radius: 5px;

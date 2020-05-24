@@ -2,8 +2,6 @@ const textElement = document.getElementById('text');
 const image = document.getElementById('illustration');
 const optionButtonsElement = document.getElementById('option-buttons');
 
-
-
 let state = {};
 
 function startGame() {
@@ -409,7 +407,7 @@ const textNodes = [
     {
     id: 21,
     img: 'kovacs.jpg',
-    text: 'A kovács áll előtted, és kérdi, hogy miért kedesed! Mit válaszolsz?',
+    text: 'A kovács áll előtted, és kérdi, hogy miért keresed! Mit válaszolsz?',
     options: [
             {
                 text: 'Kardot szeretnék készítetni.',
@@ -579,7 +577,7 @@ const textNodes = [
     text: 'Hát akkor még favágó lehetsz!?',
     options: [
             {
-                text: 'Az jó lesz favágó leszek!',
+                text: 'Az jó lesz, favágó leszek!',
                 nextText: 33
             },
             {
